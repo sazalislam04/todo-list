@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+  overflow: hidden;
+}
+.btn {
+  background: crimson;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.card {
+  width: 500px;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+.card h1 {
+  text-align: center;
+}
+.card h1 span {
+  color: crimson;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+#input-field {
+  padding: 12px;
+  border-radius: 5px;
+  border: 2px solid crimson;
+  font-size: 18px;
+  width: 75%;
+}
+#input-field:focus {
+  outline: none;
+}
+.list-items {
+  margin-top: 50px;
+}
+div > p {
+  list-style: none;
+  background: #ffe7ed;
+  padding: 12px;
+  border-radius: 5px;
+  color: #222;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.delete-btn {
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
